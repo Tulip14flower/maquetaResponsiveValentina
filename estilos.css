@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2E3D5;
+}
+
+.caja1 {
+    background-color: hsl(281, 41%, 45%);
+    height: 150px;
+}
+
+.caja2 {
+    background-color: #e77fd6;
+    height: 150px;
+}
+
+.caja3 {
+    background-color: #fabcef;
+    height: 150px;
+}
+
+.caja4 {
+    background-color: #f03f7a;
+    height: 150px;
+}
+
+.caja5 {
+    background-color: rgb(122, 154, 224);
+    height: 150px;
+}
+
+@media (max-width:820px){
+    .eliminarcajas{ display: none;}
+}
+
+@media(max-width:428px){
+     .eliminarcaja{display: none;}
+}
